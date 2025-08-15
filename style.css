@@ -1,0 +1,94 @@
+.heading{
+    color:#EC3E87;
+    font-family:"Abril Fatface" ;
+    font-size:55px;
+    margin-top:50PX;
+    margin-left: 50PX;
+    font-style: italic;
+    font-weight:1000;
+    text-decoration: none;
+}
+.sideheading{
+    color:#FFD700;
+    font-family: "Futura";
+    font-size: 25px;
+    margin-left: 50PX;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+}
+.tag{
+    display:inline-block;
+    text-decoration: none;
+    margin-left:30px;
+    margin-top: 80px;
+    font-size: 30px;
+    color:#333333;
+}
+img{
+    height:600px;
+    width:870px;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-bottom:30px ;
+}
+#heading2{
+    color:#EC3E87;
+    font-family:"Abril Fatface" ;
+    font-size:55px;
+    margin-top:50PX;
+    margin-bottom: 100px;
+    margin-left: 50PX;
+}
+
+#about{
+    text-align: left;
+    max-width:900px;
+}
+#right{
+    float: right;
+}
+p{
+    font-size: 20px;
+    line-height: 1.6;
+    font-family: arial;
+    margin-left: 50px;
+}
+#head3{
+    color:#EC3E87;
+    font-size: 60px;
+    text-align: left;
+    max-width: 50%;
+    font-family: cursive;
+    margin-left: 100px;
+}
+#contact{
+    margin-left: 900px;
+    min-width: 1000px;
+    font-size: 35px;
+    line-height: 1.6;
+    font-family: arial;
+}
+#talk{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding:30px 30px 30px 30px;
+    margin-left: 1000px;
+    font-size: 30px;
+}
+#last{
+    text-align: center;
+}
+input[type="email"]{
+    padding:20px 50px 20px 50px;
+    font-size: 30px; 
+}
+#signup{
+     background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding:30px 30px 30px 30px;
+     font-size: 30px;
+}
