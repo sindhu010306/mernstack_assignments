@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>membership</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body class="register">
+    <h2>MEMBERSHIP FORM</h2>
+    <div class="form-box">
+    <form name="registration form" method="post" onsubmit="return validateform()">
+    <div class="group">
+    <label>username:</label>
+    <input  class="inputbox" type="text" placeholder="enter your name" name="name">
+    </div>
+    <div class="group">
+    <label>password:</label>
+    <input  class="inputbox" type="password" placeholder="enter password" name="password">
+    </div>
+    <div class="group">
+    <label>confirm password:</label>
+    <input  class="inputbox" type="password" placeholder="enter password again" name="confirmpassword">
+    </div>
+    <div class="group">
+    <label>email:</label>
+    <input  class="inputbox" type="email" placeholder="enter email id" name="email">
+    </div>
+    <div class="group">
+    <label>phone number:</label>
+    <input  class="inputbox" type="tel" placeholder="enter your number" name="phonenumber">
+    </div>
+    <div class="group">
+    <label>date of birth:</label>
+    <input  class="inputbox" type="date" id="dob" name="dob" min="1950-01-01" max="2025-07-23">
+    </div>
+    <div class="group">
+    <label>reason to join:</label>
+    <textarea  class="inputbox" name="address" rows="5" cols="30">  </textarea><br>
+    </div>
+    <div class="radio">
+    <div class="group">
+    <label>gender:</label>
+    <radiogroup>
+        <input   type="radio" value="male" name="gender"><i>MALE</i><br>
+        <input  type="radio" value="female" name="gender"><i>FEMALE</i>
+    </radiogroup>
+    </div>
+    <div class="last">
+    <input  class="search" type="submit" />
+    <input  class="search" type="RESET" /></div>
+    </form>
+    
+</body>
+</html>

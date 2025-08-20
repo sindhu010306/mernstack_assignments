@@ -1,0 +1,440 @@
+*,html,body{
+    margin:0;
+    padding:0;
+    font-family:arial;
+}
+h1{
+    text-align:center;
+    color:#162447;
+    font-size: 40px;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+h2{
+    text-align:center;
+    color:#AA4A44;
+}
+h3{
+    color:purple;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#navbar{
+    height:7vh;
+}
+#main{
+    height:93vh;
+}
+iframe{
+    width:100%;
+    height:100%; 
+    border:none;
+}
+#navbaritems{
+    display:flex;
+    justify-content: space-evenly;
+    background-color:#162447 ;
+    border-radius: 5px;
+    color:#F5F6FA;
+}
+#navbaritems i{
+    color:#BFCC94;
+    font-size:25px;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+    font-family: cursive;
+}
+a:hover{
+    color:#FF8700;
+}
+   
+#logo{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 0;padding:0;
+}
+#clublogo{
+    margin-left: 1px;
+    width:350px;
+}
+#aulogo{
+    margin-right:10px;
+    width:200px;
+    padding:40px;
+}
+html{
+    height: 100%;
+}
+#hero{
+    margin:0;padding:0;
+    background-image:url(main.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+#hero h1{
+    margin-left: 400px;
+    color:red;
+    font-family:cursive;
+    font-style:oblique;
+    font-size:50px;
+    margin-top:70px;
+    max-width:800px;
+}
+#hero h2{
+    margin-left: 500px;
+    font-size:30px;
+    color:darkorange;
+    font-family:cooper black;
+    max-width:500px ;
+}
+#hero button{
+    padding:10px 10px;
+    font-size: 30px;
+    border-radius: 10px;
+    margin:50px 600px 120px;
+    border:5px solid #90BAAD;
+    color:white;
+    background-color: #7C4DFF ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#hero button:hover{
+    background-color:#6A1B9A ;
+    color:#FF8700;
+}
+.box{
+    height:210px;width:250px;
+    border:0px;
+    font-size:20px;
+    color:beige;
+    padding:10px;
+    border-radius: 5px;
+}
+#fourboxs{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -60px;
+}
+#fourboxs h1{
+    font-size:50px;
+    margin:10px
+}
+#fourboxs p{
+    font-size:12px;
+    font-weight: lighter;
+    line-height:15px;
+    margin:10px ;
+}
+.workshop img{
+    height:300px;width:400px;
+    margin:10px 20px;
+}
+.workshop p{
+    margin:10px 20px;
+    line-height:1.2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.workshop{
+    height:600px;width:450px;
+    border:1px dashed black;
+}
+.button{
+    padding:10px 20px;
+    margin:10px 50px;
+    font-size:20px;
+    background-color:orange;
+    color:white;
+}
+#projects{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#centerblock{
+    margin:50px 50px;
+    background-image: url("achievement.jpg");
+    background-size: cover;
+}
+#centerblock h2{
+    text-align: center;
+    color:yellow;
+    padding-top:100px;
+    padding-bottom: 40px;
+    font-family:cursive;
+    font-size: 40px;
+}
+
+#centerblock h3{
+    text-align: center;
+    color:#162447;
+    padding-bottom: 40px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#achievements{
+    margin-top:50px;
+    padding-bottom: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.row h4{
+    color:white;
+    font-size: 20px;
+    max-width: 200px;
+}
+.row {
+    color:white;
+}
+.row p{
+    color:yellow;
+    font-size: 30px;
+}
+.updates {
+    display: flex;
+    flex-direction: row;
+    margin-bottom:50px;
+    margin-top: 5px;
+    justify-content: center;
+}
+.updates img{
+    height:200px ; width:300px;
+    border-radius: 10px;
+    display: block;
+}
+.updates p{
+    max-width: 500px;
+    line-height: 1.2em;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#signup{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 300px;
+    margin-right: 250px;
+    margin-bottom: 100px;
+}
+#stay p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#stay h4{
+    font-size: 35px;
+    color:blue
+}
+#email input[type="email"]{
+    padding:5px 25px;
+}
+#email button{
+    padding:5px 20px;
+    background-color:skyblue;
+    color: white;
+    font-size: 25px;
+}
+.box2{
+     height:100px;width:150px;
+    border:0px;
+    font-size:20px;
+    color:beige;
+    padding:10px;
+    border-radius: 5px
+}
+#learn1{
+     padding :40px;
+     background-color:grey;
+}
+#learn{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+}
+#learn1 h1{
+    color:white;
+    font-size: 30px;
+}
+#join{
+    margin:0px 40px 10px 40px;
+    background-color:orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:20px;
+}
+#join h1{
+    font-size: 20px;
+}
+#join h2{
+    font-size: 10px;
+}
+#join h3{
+    font-size:30px;
+}
+#signin{
+    margin:20px;
+    height:250px;width:290px;
+    border:1px solid black;
+    background-color: white;
+}
+
+#signin input[type]{
+
+    margin:5px 15px;
+    font-size: 20px;
+
+}
+#signin button{
+    padding:5px 10px;
+    font-size: 15px;
+    background-color: #90BAAD;
+    color:white;
+    margin-left:80px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin:40px 30px ;
+}
+#about p{
+    max-width: 300px;
+    font-size: 10px;
+    line-height: 1.5em;
+}
+
+#history h1{
+    color: #0077B6;
+    text-align: left;
+    margin:10px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: 50px;
+}
+
+#history p,li{
+    color:#162447;
+    line-height:2em;
+    font-size: 25px;
+    margin : 0px 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#history h2{
+    color:crimson;
+    font-family:cooper black;
+    font-size: 35px;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+#history i{
+    font-size: 60px;
+    color:#162447;
+}
+#history img{
+    margin-left:400px;
+    height:120px;
+}
+#learning{
+    background-image: url("learn.avif");
+    background-size: cover;
+}
+
+#learning p ,.contact h2{
+    color:#0077B6;
+    line-height: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin:0px 50px;
+}
+#learning li{
+    color: crimson;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+#learning h2{
+    color:purple;
+    text-align: left;
+    margin:10px 20px;
+    font-family: cursive;
+    text-decoration:wavy;
+    text-decoration-color: palevioletred;
+    text-decoration-line: underline;
+}
+.inputbox{
+    background-color:#90BAAD;
+    color:#0D1821;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    border-radius: 5PX;
+    font-size: 15PX;
+    box-sizing: border-box;
+    padding:5px 10px;
+
+}
+.form-box{
+    height:500px;width:400px;padding:25px;
+    border: 10px solid #3E1929;background-color:#845A6D;
+    margin:40px auto;border-radius: 20%;
+}  
+.group{
+    display:flex;
+    align-items: center;
+    gap:10px;
+    margin:3px;
+}
+.boxcolor{
+    accent-color:#3E1929;
+} 
+.group label{
+    font-family: cursive;
+    color:#3E1929;
+    font-size:25px;
+}
+.last{
+    display:flex;align-items: center;gap:30px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+input[type="radio"]{
+    transform:scale(1.5);
+}
+.search{
+    background-color:#344966;color:#BFCC94;cursor: pointer;padding:5px 15px;font-size:25px;
+}
+
+i{font-family: cursive;font-size:20px; color:#0D1821;}
+
+.register h2 {
+    color:#3E1929;
+    font-size: 40px;
+    margin-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.feedback{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.feedback .row{
+    display:flex;
+    align-items: center;
+    gap:10px;
+    margin:3px;
+}
+.feedback .row h3{
+    min-width:80px;
+    margin:0;
+    font-size:25px;
+    color:royalblue
+}
+#contact2{
+    background-color: #ccc;
+}
